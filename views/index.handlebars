@@ -1,11 +1,13 @@
 <div class="container">
+<h1>Eat The Burger!</h1>
+<br>
 <img class="img-fluid" src="assets/img/Burger-illustration-vector-free-PNG.png">
 
-<h1>Eat The Burger</h1>
+<hr>
 
 <div class="row">
 <div class= "col-4">
-<h2>To be eaten!</h2>
+<h2>Want to Eat!</h2>
 <ul>
   {{#each burgers}}
       {{#unless devoured}}
@@ -32,7 +34,7 @@
   <div class="form-group">
     <label for="burger">Burger Name:</label>
     <input type="text" id="burger" name="name">
-    <button class = "btn btn-primary" type="submit">Add Burger</button>
+    <button class = "btn" type="submit">Add Burger</button>
   </div>
 
 </form>
